@@ -8,38 +8,90 @@
     <title>Space Blog</title>
 </head>
 <body>
+    <header id="siteHead">
+        <div class="branding">
+            <img class="brandicon" src="img/Rocket.svg" alt="Rocket Icon">
+            <h1>Everything new about Space</h1>
+        </div>
+        <nav class="menu">
+            <ul>
+                <a href="#">Home</a>
+                <a href="#">Archive</a>
+                <a href="#">Gallery</a>
+            </ul>
+        </nav>
+    </header>
     <div class="wrapper">
 
-        <header>
-            <div class="branding">
-                <img class="brandicon" src="img/Rocket.svg" alt="Rocket Icon">
-                <h1>Everything new about Space</h1>
-            </div>
-            <nav class="menu">
-                <ul>
-                    <a href="#">Home</a>
-                    <a href="#">Archive</a>
-                    <a href="#">Gallery</a>
-                </ul>
-            </nav>
-        </header>
+
 
         <main>
             <section class="content">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-                <img src="https://picsum.photos/1440/900" alt="random image">
-                <br>
-                <img src="https://picsum.photos/1440/900" alt="random image">
-            </section>
-            <aside class="sidebar">
+                <article>
+                    <div class="articleHead">
+                        <a href="#"><h2>Rocket Lab launch</h2></a>
+                        <span>By Friis Kraas, 17.03.23</span>
+                        <hr>
+                    </div>
+                    <div class="articleBody">
+                        <img src="img/articles/Rocketlab.jpeg" alt="RocketLab Electron Rocket">
+                    <p class="clearfix">
+                        On March 16th, Rocket Lab successfully launched their 34th Electron mission "Stronger together" 
+                        from Launch Complex 2 on Wallops Island, Virginia. Onboard were two satellites from Capella Space, 
+                        a U.S. satellite manufacturer. Both satellites are Synthetic Aperture Radar (SAR) satellites to
+                        deliver high resolution earth imagery for commercial customers. "Stronger together" was Capella Space's
+                        second launch with Rocket Lab on Electron. <br>
+                        The Kerosene-driven rocket lifted from the launchpad at 18:38 ET and delivered it's payload to the target
+                        orbit with a 44° inclination and 600km height.
+                    </p>
+                    <hr>
+                    <a class="articleFoot" href="#">More details on Electron</a>
+                </article>
+                
+                <article>
+                    <div class="articleHead">
+                        <a href="#"><h2>SpaceX CRS-27</h2></a>
+                        <span>By Friis Kraas, 15.03.23</span>
+                        <hr>
+                    </div>
+                    <div class="articleBody">
+                        <img src="img/articles/Rocketlab.jpeg" alt="RocketLab Electron Rocket">
+                    <p class="clearfix">
+                        On March 16th, Rocket Lab successfully launched their 34th Electron mission "Stronger together" 
+                        from Launch Complex 2 on Wallops Island, Virginia. Onboard were two satellites from Capella Space, 
+                        a U.S. satellite manufacturer. Both satellites are Synthetic Aperture Radar (SAR) satellites to
+                        deliver high resolution earth imagery for commercial customers. "Stronger together" was Capella Space's
+                        second launch with Rocket Lab on Electron. <br>
+                        The Kerosene-driven rocket lifted from the launchpad at 18:38 ET and delivered it's payload to the target
+                        orbit with a 44° inclination and 600km height.
+                    </p>
+                    <hr>
+                    <a class="articleFoot" href="#">More details on Falcon 9</a>
+                </article>
 
+            </section>
+
+            <aside class="sidebar">
+                <h3>Go directly to...</h3>
+                <ul>
+                    <a href="https://www.nasa.gov" target="_blank">NASA</a>
+                    <a href="https://www.spacex.com" target="_blank">SpaceX</a>
+                    <a href="https://global.jaxa.jp" target="_blank">JAXA</a>
+                    <a href="https://www.rocketlabusa.com" target="_blank">Rocket Lab</a>
+                </ul>
             </aside>
         </main>
 
-        <footer>
 
-        </footer>
 
     </div>
+    <footer>
+        <a href="#siteHead">Back to Top</a>
+        <nav>
+            <a href="#">Impressum</a>
+            <a href="#">Datenschutz</a>
+        </nav>
+        <p>All images &copy; of their respective owners. Do not distribute images or articles from this webpage without consent.</p>
+    </footer>
 </body>
 </html>
